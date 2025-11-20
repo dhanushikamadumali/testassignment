@@ -1,0 +1,22 @@
+
+
+.login_heading{
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+.logincard {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+
+}
+
+.login-button {
+    
+   width: 100%;
+    
+
+   
+}
