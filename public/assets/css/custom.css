@@ -10,13 +10,104 @@
     padding: 40px;
     border-radius: 15px; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
-
 }
 
-.login-button {
-    
+.login-button {    
    width: 100%;
-    
-
-   
 }
+
+
+/* General chat card design */
+.chat-card {
+    background: #e0f7fa; 
+    border: 2px solid #00cc99; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+/* Chat list */
+.chat-list {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+/* Chat window */
+.chat-window {
+    height: 75vh;
+    overflow-y: auto;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Message styling */
+.message {
+    max-width: 70%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+}
+
+.message.me {
+    background: #00cc99;
+    color: white;
+    margin-left: auto;
+}
+
+.message.other {
+    background: #e9ecef;
+    color: #212529;
+    margin-right: auto;
+}
+
+.message small {
+    display: block;
+    opacity: 0.7;
+    font-size: 11px;
+}
+
+/* Active user highlight */
+.user-item.active {
+    background: #00cc99;
+}
+
+/* Avatar */
+.user-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Center heading */
+.menu-heading {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #00cc99;
+    padding-bottom: 8px;
+}
+
+/* Menu list style */
+.menu-list li {
+    border-bottom: 1px solid #00cc99;
+    padding: 8px 0;
+}
+
+/* Remove last item border */
+.menu-list li:last-child {
+    border-bottom: none;
+}
+
+/* Menu links */
+.menu-link {
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+.menu-link:hover {
+    color: #00cc99;
+}
+
+    

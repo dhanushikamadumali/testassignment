@@ -68,7 +68,7 @@
                                 id="image-upload" 
                                 name="image" 
                                 accept="image/*" 
-                                required
+                               
                             >   
                         </div>
                     </div>     
@@ -76,7 +76,7 @@
 
                     <div class="row mb-3 ">
                         <div class="col-md-12">
-                            <button type="submit" class="btn btn-primary login-button">
+                            <button type="submit" class="btn" style="background-color:#00cc99; color:white; font-weight:bold">
                                Register
                             </button>
                         </div>

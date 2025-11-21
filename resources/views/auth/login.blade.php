@@ -35,18 +35,20 @@
 
                     <div class="row mb-3 ">
                         <div class="col-md-12">
-                            <button type="submit" class="btn btn-primary login-button">
+                            <button type="submit" class="btn login-button" style="background-color:#00cc99; color:white; font-weight:bold">
                                Login
                             </button>
                         </div>
                     </div>
                 </form>
                   <div class="row mb-0">
+                    @guest
                     <div class="col-md-12">
-                        <a href="{{ route('register') }}" class="btn btn-primary login-button">
+                        <a href="{{ route('register') }}" class="btn login-button" style="background-color:#00cc99; color:white; font-weight:bold">
                            Register
                         </a>                      
                     </div>
+                    @endguest
                     <div class="row">
                           @if (Route::has('password.request'))
                             <a class="btn btn-link" href="{{ route('password.request') }}">
